@@ -1,0 +1,203 @@
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: rgb(20, 25, 35);
+    margin: 0;
+}
+
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src:  local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: local('Darker Grotesque'),
+        url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('../fonts/JosefinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.header {
+    display: flex;
+    margin-left: 40px;
+    width: 1140px;
+    height: 150px;
+}
+
+.header__logo {
+    width: 120px;
+    height: 27px;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.header__list {
+   display: flex;
+   justify-content: space-between;
+   justify-content: right;
+   margin-right: 10px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 27px;
+}
+
+.header__list a {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.rtcinema {
+    display: flex;
+    height: 500px;
+}
+
+.oa__txt {
+    width: 455px;
+    height: 27px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B2B2D3;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 40px;
+}
+
+.rc__txt {
+    width: 455px;
+    height: 60px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 40px;
+}
+
+.mn__txt {
+    width: 455px;
+    height: 86px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #B2B2D3;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 40px;
+}
+
+.rtcinema__img {
+    position: absolute;
+    right: 0;
+    width: 750px;
+    height: 400px;
+}
+
+.btn {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 14px 40px 18px;
+    gap: 10px;
+    position: absolute;
+    width: 204px;
+    height: 59px;
+    color: white;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+
+.btn__blue {
+    display: flex;
+    background: #40467C;
+    margin-left: 80px;
+    width: 190px;
+    height: 60px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.btn__white {
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque';
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 530px;
+    padding: 14px 40px 18px;
+    gap: 10px;
+    width: 204px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 23px;
+    background: rgba(20, 25, 35, 0.01);
+    border: 2px solid #FFFFFF;
+}
