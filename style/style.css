@@ -10,6 +10,14 @@ h4 {
     
 }
 
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
 @font-face {
     font-family: 'Darker Grotesque';
     src: local('Darker Grotesque'),
@@ -52,7 +60,6 @@ h4 {
 
 
 .header {
-    display: flex;
     margin-left: 40px;
     width: 1140px;
     height: 150px;
@@ -84,7 +91,6 @@ h4 {
 }
 
 .rtcinema {
-    display: flex;
     height: 500px;
 }
 
@@ -160,6 +166,7 @@ h4 {
 }
 
 .btn a {
+    font-family: 'Darker Grotesque';
     text-decoration: none;
 }
 
@@ -167,10 +174,9 @@ h4 {
 .btn__blue {
     display: flex;
     background: #40467C;
-    margin-left: 80px;
+    margin-left: 70px;
     width: 190px;
     height: 60px;
-    font-family: 'Darker Grotesque';
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -188,7 +194,6 @@ h4 {
 .btn__white {
     display: flex;
     box-sizing: border-box;
-    font-family: 'Darker Grotesque';
     flex-direction: column;
     justify-content: center;
     margin-left: 530px;
@@ -200,4 +205,185 @@ h4 {
     line-height: 23px;
     background: rgba(20, 25, 35, 0.01);
     border: 2px solid #FFFFFF;
+}
+
+.benefits {
+    width: 1242px;
+    height: 524px;
+    display: flex;
+    margin-left: 40px;
+    background: #1B213A;
+    font-family: 'Darker Grotesque';
+}
+
+.benefits_h2 {
+    position: absolute;
+    width: 351px;
+    height: 98px;
+    left: 680px;
+    top: 680px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.benefits-table {
+    display: grid;
+    justify-content: right;
+    width: 636px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 170px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.benefits-h3 {
+    width: 273px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.benefits-p {
+    width: 273px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #B2B2D3;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.locations-top {
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.locations-h2 {
+    position: absolute;
+    width: 302px;
+    height: 48px;
+    left: 40px;
+    top: 1200px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.img-arrow {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    border: 0px solid #40467C;
+    flex: none;
+    order: 0;
+    margin-top: 35px;
+    margin-left: 1160px;
+    flex-grow: 0;
+    padding: 40px;
+}
+
+.i-a-right {
+    margin-left: 20px;
+}
+
+.offers {
+    font-family: 'Darker Grotesque';
+    justify-content: space-around;
+}
+
+.offers-img {
+    position: absolute;
+    width: 394px;
+    height: 394px;
+    top: 1320px;
+}
+
+.offers-img-left {
+    left: 45px;
+}
+
+.offers-img-middle {
+    left: 490px;
+}
+
+.offers-img-right {
+    left: 940px;
+}
+
+.offers-name-h5 {
+    width: 290px;
+    height: 38px;
+    margin-left: 0px;
+    margin-top: 550px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.offers-name-star {
+    width: 16px;
+    height: 16px;
+    margin-left: 60px;
+    margin-top: 565px;
+}
+
+.offers-name-p {
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    margin-top: -28px;
+    margin-left: 85px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.offers-city {
+    width: 145px;
+    height: 27px;
+    margin-left: 0px;
+    margin-top: -35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B2B2D3;
+}
+
+.offers-price {
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    margin-left: 270px;
+    margin-top: -35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
